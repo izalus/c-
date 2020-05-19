@@ -1,9 +1,5 @@
 #include<iostream>
 int main()
 {
-    int x,y,z;
-    x=5;
-    y=3;
-    z=x+y;
-    std::cout<<z;
+    std::cout<<0;
 }

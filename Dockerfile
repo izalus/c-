@@ -1,5 +1,9 @@
-FROM gcc:4.9
-COPY . /usr/src/myapp
+FROM gcc:{{version}}
+
 WORKDIR /usr/src/myapp
+
+COPY . .
+
 RUN g++ -o myapp main.cpp
+
 CMD ["./myapp"]

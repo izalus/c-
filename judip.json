@@ -1,6 +1,0 @@
-{
-    "entry" : "./main.cpp",
-    "inputs" : {
-        "version" : "string"
-    }
-}
