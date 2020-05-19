@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  cpp:
+    build: .
+    image: cpp-image
